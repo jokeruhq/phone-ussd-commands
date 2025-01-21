@@ -114,7 +114,6 @@
 ---
 
 ## ⚠️ Important Notes:
-1. **Use Caution**: Some codes can erase data, reset your device, or change critical settings.
-2. **Compatibility**: Not all codes work on all devices, as they depend on model, software version, and carrier.
-3. **Responsibility**: Always ensure you understand a code's function before using it.
-
+`1.` **Use Caution**: Some codes can erase data, reset your device, or change critical settings.
+`2.` **Compatibility**: Not all codes work on all devices, as they depend on model, software version, and carrier.
+`3.` **Responsibility**: Always ensure you understand a code's function before using it.
