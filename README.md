@@ -1,100 +1,110 @@
-# 📱 Complete List of Mobile Codes (USSD & Secret Codes)
+# 📱 Ultimate Mobile Code Collection (USSD & Secret Codes)
 
-## 🔗 General USSD Codes
-- `#06#` 📋 **Show the IMEI of the device (Unique Identifier)**.
-- `#21#` 📞 **Check the call forwarding status**.
-- `*#21#` ✅ **Activate call forwarding**.
-- `##21#` 🚫 **Disable active call forwarding**.
-- `*67number` 📞 **Forward calls when the line is busy**.
-- `*62number` 📡 **Forward calls when out of network coverage**.
-- `*61number` 📞 **Forward calls when unanswered**.
-- `##002#` ❌ **Cancel all call forwarding (universal)**.
-- `*43#` ✅ **Enable call waiting**.
-- `#43#` 🔄 **Check call waiting status**.
-- `#33*PIN#` 🔒 **Block all outgoing calls**.
-- `*33*PIN#` 🔓 **Unblock all outgoing calls**.
-- `*31#number` 👁️ **Temporarily show your number when calling**.
-- `#31#number` 🙈 **Temporarily hide your number when calling**.
-- `*#61#` 🕒 **Check the time limit before calls are forwarded**.
-- `*#62#` 🔄 **Check the number where calls are forwarded when out of coverage**.
-- `*#67#` 📞 **Check the number where calls are forwarded when busy**.
+---
 
-<hr>
+## 🔗 General USSD Commands
+- `#06#` 📋 **Display device IMEI (Unique Identifier)**.
+- `*#07#` 🛡️ **Check device radiation levels (SAR)**.
+- `*#12345#` 🔄 **Reset user-set passwords**.
+- `*#21#` 🔄 **Check call forwarding (all types)**.
+- `*61number` 📞 **Set call forwarding for missed calls**.
+- `*62number` 📡 **Set call forwarding for unreachable scenarios**.
+- `*67number` 🚫 **Set call forwarding for busy line**.
+- `##004#` 🔄 **Disable all types of call forwarding**.
+- `*#43#` ✅ **Enable/disable call waiting feature**.
+- `*31#` 👁️ **Mask your number for outgoing calls (default)**.
+- `#31#` 🙈 **Show your number for outgoing calls (default)**.
+- `*3001#12345#*` 🔍 **Field Test Mode on compatible devices**.
 
-## 🤖 Secret Android Codes
+---
 
-### 📱 Samsung
-- `*#0*#` ⚙️ **Full hardware test menu**.
-- `*#1234#` 📋 **View firmware and software version details**.
-- `*#0011#` 📡 **Open network service status information**.
-- `*#0228#` 🔋 **Advanced battery status (level, voltage, etc.)**.
-- `*#0808#` 🔌 **Advanced USB connection options (MTP, PTP, etc.)**.
-- `*#2683662#` 🛠️ **Network test mode**.
-- `*#32489#` 🔐 **View encryption status**.
-- `*#1111#` 📋 **FTA software version (internal testing)**.
-- `*#7353#` 📲 **Quick test menu (audio, vibration, camera, etc.)**.
+## 📱 Android Secret Codes
 
-### 📱 Huawei
-- `*#*#2846579#*#*` 🔍 **Open advanced diagnostics menu**.
-- `*#*#0000#*#*` 📋 **View model and device version details**.
-- `*#*#1357946#*#*` 🔋 **Advanced power and battery test**.
-- `*#*#6130#*#*` 📡 **Configure preferred network (2G/3G/4G/5G)**.
+### 📡 Device Diagnostics
+- `*#*#4636#*#*` 📊 **Display detailed device and usage statistics**:
+  - Battery health and status.
+  - Network details.
+  - Application usage data.
+- `*#*#197328640#*#*` 🛠️ **Service Mode (detailed tests)**.
+- `*#*#232339#*#*` 📶 **WiFi diagnostics and ping tests**.
+- `*#*#1472365#*#*` 📡 **GPS testing tool**.
+- `*#*#2663#*#*` 🎛️ **Touch firmware update (for some models)**.
+- `*#*#3424#*#*` 🔍 **Diagnostic tool for HTC devices**.
 
-### 📱 Xiaomi
-- `*#*#6484#*#*` 🛠️ **Complete hardware diagnostic menu**.
-- `*#*#4636#*#*` 📊 **Advanced network, battery, and usage statistics**.
-- `*#*#7780#*#*` 🔄 **Partial factory reset (without erasing user data)**.
-- `*#*#759#*#*` 🔍 **Hidden internal debugging menu**.
-- `*#*#8351#*#*` 🎙️ **Enable call recording for incoming/outgoing calls**.
-- `*#*#232339#*#*` 📶 **Test and verify WiFi connectivity**.
+### 🔋 Power & Battery
+- `*#*#0283#*#*` 🔊 **Audio loopback test for microphone**.
+- `*#*#0289#*#*` 🔔 **Test notification sounds**.
+- `*#*#0842#*#*` 📳 **Test vibration and backlight functions**.
+- `*#*#4636#*#*` 🔋 **Battery status, temperature, and usage data**.
 
-### 📱 General (All Android Devices)
-- `*#*#232338#*#*` 🌐 **View WiFi MAC address**.
-- `*#*#232331#*#*` 📡 **Test Bluetooth module**.
-- `*#*#7262626#*#*` 📶 **Advanced signal/network field test mode**.
-- `*#*#1472365#*#*` 📡 **Test GPS accuracy**.
-- `*#*#2664#*#*` ✋ **Test touchscreen sensitivity**.
-- `*#*#2222#*#*` 📋 **View hardware version details**.
-- `*#*#44336#*#*` 📋 **Show software build and update history**.
+### 🔌 Network & Connectivity
+- `*#*#7780#*#*` 🔄 **Factory reset without wiping SD card data**.
+- `*#*#7262626#*#*` 🌐 **Advanced signal testing mode**.
+- `*#7465625#` 🔒 **Check SIM lock status (Carrier lock)**.
 
-<hr>
+### 📸 Camera & Display
+- `*#*#34971539#*#*` 📸 **Camera version and update details**.
+- `*#*#0*#*#*` 🌈 **Comprehensive display test**:
+  - Touchscreen testing.
+  - Dead pixels detection.
 
-## 🍎 Secret iPhone Codes
-- `*3001#12345#*` 📶 **Open the "Field Test" (Signal and network diagnostics)**.
-- `#31#number` 🙈 **Hide your number when calling**.
-- `*3370#` 🎙️ **Enable Enhanced Full Rate (EFR) mode for better call quality**.
-- `#5005*7672#` ✉️ **Check SMS center number**.
-- `*#06#` 📋 **Show device IMEI**.
-- `*#21#` ✅ **Check call forwarding status (enabled/disabled)**.
-- `*#67#` 🔄 **Check the number to which calls are forwarded when busy**.
-- `*#62#` 📡 **Check the number to which calls are forwarded when out of coverage**.
+---
 
-<hr>
+## 🍎 iPhone Hidden Codes
 
-## 🌐 USSD Codes for Mobile Operators
+### 📡 Network & Signal
+- `*3001#12345#*` 📶 **Field Test Mode (Signal details)**.
+- `*#5005*7672#` ✉️ **Check SMS service center number**.
+- `*#31#` 🙈 **Enable/disable Caller ID blocking**.
+- `*#76#` 📞 **Check Connected Line Presentation status (CLIP)**.
+- `*3370#` 🔊 **Enable EFR (Enhanced Full Rate) mode for call clarity**.
 
-### 📡 Movistar
-- `#100#` 💵 **Check balance**.
-- `*444#` 📲 **Purchase data packages**.
-- `*611#` 📞 **Customer service access**.
-- `*725#` 💬 **Check SMS balance**.
+### ⚙️ Advanced Device Information
+- `*#06#` 📋 **Show IMEI (International Mobile Equipment Identity)**.
+- `*#3282#` 📊 **View data usage statistics**.
+- `*#67#` 📡 **Check call forwarding when busy**.
+- `*#62#` 🌐 **Check forwarding number for no-service scenarios**.
 
-### 🟥 Claro
-- `*123#` 💵 **Check balance**.
-- `*111#` 🌐 **View active promotions and services**.
-- `*611#` 📞 **Access customer service**.
-- `*444#` 📲 **Purchase data and minute packages**.
+---
 
-### 📶 Telcel
-- `*133#` 💵 **Check airtime balance**.
-- `*264#` 🌐 **Data services**.
-- `*728#` 📊 **Check available mobile data**.
-- `*111#` 📲 **Interactive menu for promotions and services**.
+## 🌐 Mobile Carrier USSD Codes
 
-<hr>
+### 📡 Verizon (USA)
+- `*611` 📞 **Contact customer service**.
+- `#3282` 📊 **Check data usage**.
+- `*86` 🎙️ **Access voicemail**.
 
-## ⚠️ Final Notes
-1. **⚠️ Caution**: Some codes can change critical settings or even erase data. Use them only if you fully understand their function.
-2. **📋 Compatibility**: Not all codes work on all devices or networks, as they depend on the model, software, and provider.
-3. **🛠️ Debugging**: These codes are useful for technicians, developers, and advanced users.
+### 📡 AT&T (USA)
+- `*3282#` 📊 **Check data usage**.
+- `*646#` 📞 **Check remaining talk minutes**.
+- `*225#` 💵 **Check account balance and payments**.
+
+### 📡 T-Mobile (USA)
+- `#225#` 💵 **Check billing and payments**.
+- `#646#` 📞 **Check remaining talk minutes**.
+- `#932#` 📊 **Data plan usage details**.
+
+### 🌍 Global (General)
+- `#100#` 💵 **Check balance on most pre-paid plans**.
+- `*140#` 📦 **Access bundle or package menu**.
+- `*111#` 🌐 **Operator-specific interactive menu**.
+
+---
+
+## 🛠️ Advanced Developer & Debugging Codes
+
+### 📲 Developer Options
+- `*#*#7594#*#*` 🛠️ **Change power button behavior (long press)**.
+- `*#*#8255#*#*` 🧩 **Google Services debugging log (GTalk Service Monitor)**.
+
+### 📡 Testing Cellular & WiFi
+- `*#*#232331#*#*` 📶 **Bluetooth module diagnostic**.
+- `*#*#1575#*#*` 📡 **Detailed GPS testing mode**.
+
+---
+
+## ⚠️ Important Notes:
+1. **⚠️ Caution**: Some codes can reset your device, change settings, or erase data. Use only if you fully understand their purpose.
+2. **📋 Compatibility**: Not all codes work on every device. They depend on your phone model, carrier, and software.
+3. **🛠️ Advanced Usage**: These codes are especially useful for developers, technicians, and advanced users.
 
