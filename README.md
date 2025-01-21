@@ -19,7 +19,7 @@
 - `*#62#` 🔄 **Check the number where calls are forwarded when out of coverage**.
 - `*#67#` 📞 **Check the number where calls are forwarded when busy**.
 
----
+<hr>
 
 ## 🤖 Secret Android Codes
 
@@ -57,7 +57,7 @@
 - `*#*#2222#*#*` 📋 **View hardware version details**.
 - `*#*#44336#*#*` 📋 **Show software build and update history**.
 
----
+<hr>
 
 ## 🍎 Secret iPhone Codes
 - `*3001#12345#*` 📶 **Open the "Field Test" (Signal and network diagnostics)**.
@@ -69,7 +69,7 @@
 - `*#67#` 🔄 **Check the number to which calls are forwarded when busy**.
 - `*#62#` 📡 **Check the number to which calls are forwarded when out of coverage**.
 
----
+<hr>
 
 ## 🌐 USSD Codes for Mobile Operators
 
@@ -91,7 +91,7 @@
 - `*728#` 📊 **Check available mobile data**.
 - `*111#` 📲 **Interactive menu for promotions and services**.
 
----
+<hr>
 
 ## ⚠️ Final Notes
 1. **⚠️ Caution**: Some codes can change critical settings or even erase data. Use them only if you fully understand their function.
