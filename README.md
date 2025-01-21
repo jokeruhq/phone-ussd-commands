@@ -1,110 +1,120 @@
-# 📱 Ultimate Mobile Code Collection (USSD & Secret Codes)
+# 📱 Ultimate & Exhaustive Mobile Codes Collection (USSD & Secret Commands)
 
 ---
 
-## 🔗 General USSD Commands
-- `#06#` 📋 **Display device IMEI (Unique Identifier)**.
+## 🔗 General USSD Commands (Works Across Most Networks)
+- `#06#` 📋 **View device IMEI (unique identifier)**.
 - `*#07#` 🛡️ **Check device radiation levels (SAR)**.
-- `*#12345#` 🔄 **Reset user-set passwords**.
-- `*#21#` 🔄 **Check call forwarding (all types)**.
-- `*61number` 📞 **Set call forwarding for missed calls**.
-- `*62number` 📡 **Set call forwarding for unreachable scenarios**.
-- `*67number` 🚫 **Set call forwarding for busy line**.
-- `##004#` 🔄 **Disable all types of call forwarding**.
-- `*#43#` ✅ **Enable/disable call waiting feature**.
-- `*31#` 👁️ **Mask your number for outgoing calls (default)**.
-- `#31#` 🙈 **Show your number for outgoing calls (default)**.
-- `*3001#12345#*` 🔍 **Field Test Mode on compatible devices**.
+- `*#21#` 🔍 **View call forwarding settings (all types)**.
+- `##21#` 🚫 **Disable all call forwarding**.
+- `*67[number]` 🚫 **Divert calls when busy**.
+- `*62[number]` 📡 **Forward calls when unreachable**.
+- `*61[number]` 📞 **Forward calls after delay**.
+- `##002#` ❌ **Deactivate all types of call forwarding**.
+- `*31#` 👁️ **Hide your number for outgoing calls**.
+- `#31#[number]` 🙈 **Temporarily hide your number for one call**.
+- `*#43#` ✅ **Activate call waiting**.
+- `#43#` 🔄 **Deactivate call waiting**.
+- `*#43*` 🔍 **Check call waiting status**.
+- `#33*PIN#` 🔒 **Block all outgoing calls**.
+- `*33*PIN#` 🔓 **Unblock all outgoing calls**.
 
 ---
 
-## 📱 Android Secret Codes
+## 🤖 Secret Android Codes
 
-### 📡 Device Diagnostics
-- `*#*#4636#*#*` 📊 **Display detailed device and usage statistics**:
-  - Battery health and status.
-  - Network details.
-  - Application usage data.
-- `*#*#197328640#*#*` 🛠️ **Service Mode (detailed tests)**.
-- `*#*#232339#*#*` 📶 **WiFi diagnostics and ping tests**.
-- `*#*#1472365#*#*` 📡 **GPS testing tool**.
-- `*#*#2663#*#*` 🎛️ **Touch firmware update (for some models)**.
-- `*#*#3424#*#*` 🔍 **Diagnostic tool for HTC devices**.
+### 🔋 Power & Battery Codes
+- `*#*#4636#*#*` 🔋 **Detailed battery usage and status information**:
+  - Health, voltage, temperature, etc.
+- `*#0228#` 🔌 **Check detailed battery status (Samsung)**.
+- `*#*#0842#*#*` 📳 **Test vibration and backlight**.
 
-### 🔋 Power & Battery
-- `*#*#0283#*#*` 🔊 **Audio loopback test for microphone**.
-- `*#*#0289#*#*` 🔔 **Test notification sounds**.
-- `*#*#0842#*#*` 📳 **Test vibration and backlight functions**.
-- `*#*#4636#*#*` 🔋 **Battery status, temperature, and usage data**.
+### 📡 Network & Connectivity Codes
+- `*#*#197328640#*#*` 🛠️ **Service Mode (diagnostics and testing)**.
+- `*#*#232338#*#*` 🌐 **View WiFi MAC address**.
+- `*#7465625#` 🔒 **SIM lock status (Carrier Lock Check)**.
+- `*#*#7780#*#*` 🔄 **Reset device settings (without erasing data)**.
+- `*#*#2663#*#*` 🔧 **Check firmware version for touch controllers**.
+- `*#*#27663368378#*#*` 📶 **Access Engineering Mode for network settings**.
 
-### 🔌 Network & Connectivity
-- `*#*#7780#*#*` 🔄 **Factory reset without wiping SD card data**.
-- `*#*#7262626#*#*` 🌐 **Advanced signal testing mode**.
-- `*#7465625#` 🔒 **Check SIM lock status (Carrier lock)**.
+### 📸 Camera & Display Codes
+- `*#*#34971539#*#*` 📸 **Detailed camera version info**:
+  - Firmware update or reinstallation.
+- `*#*#0*#*#*` 🌈 **Test LCD display (color, brightness, etc.)**.
+- `*#*#2664#*#*` ✋ **Touchscreen test mode**.
+- `*#*#232331#*#*` 🔵 **Bluetooth diagnostic tool**.
 
-### 📸 Camera & Display
-- `*#*#34971539#*#*` 📸 **Camera version and update details**.
-- `*#*#0*#*#*` 🌈 **Comprehensive display test**:
-  - Touchscreen testing.
-  - Dead pixels detection.
+### 📲 App & Usage Diagnostics
+- `*#*#759#*#*` 🧩 **Google Play Services debugging tool**.
+- `*#*#8255#*#*` 🔧 **Google Talk Service monitor**.
+- `*#*#273283*255*663282*#*#*` 📂 **Backup all media files to internal/external storage**.
+
+### 📡 Advanced Signal & GPS Codes
+- `*#*#1472365#*#*` 📡 **GPS diagnostics and accuracy tests**.
+- `*#*#1575#*#*` 🌍 **Advanced GPS settings and testing**.
+- `*#*#7262626#*#*` 📶 **Field test mode for signal strength**.
+- `*#*#232337#*#*` 🔄 **View device Bluetooth address**.
 
 ---
 
-## 🍎 iPhone Hidden Codes
+## 🍎 iPhone Secret Codes
 
-### 📡 Network & Signal
-- `*3001#12345#*` 📶 **Field Test Mode (Signal details)**.
+### 📡 Signal & Carrier Codes
+- `*3001#12345#*` 📶 **Field Test Mode for advanced signal details**:
+  - Displays dBm instead of bars.
 - `*#5005*7672#` ✉️ **Check SMS service center number**.
-- `*#31#` 🙈 **Enable/disable Caller ID blocking**.
-- `*#76#` 📞 **Check Connected Line Presentation status (CLIP)**.
-- `*3370#` 🔊 **Enable EFR (Enhanced Full Rate) mode for call clarity**.
+- `*3370#` 🎙️ **Activate Enhanced Full Rate (EFR) mode for improved call quality**.
+- `*#31#` 🙈 **Hide Caller ID for outgoing calls**.
 
-### ⚙️ Advanced Device Information
-- `*#06#` 📋 **Show IMEI (International Mobile Equipment Identity)**.
-- `*#3282#` 📊 **View data usage statistics**.
-- `*#67#` 📡 **Check call forwarding when busy**.
-- `*#62#` 🌐 **Check forwarding number for no-service scenarios**.
+### ⚙️ Device & Network Info
+- `*#06#` 📋 **Display device IMEI**.
+- `*#3282#` 📊 **View usage statistics and data info**.
+- `*#76#` 📞 **Check connected line presentation status (CLIP)**.
+- `*#62#` 📡 **Check call forwarding for unreachable scenarios**.
+- `*#67#` 📞 **View call forwarding settings for busy lines**.
 
 ---
 
-## 🌐 Mobile Carrier USSD Codes
+## 🌐 Mobile Carrier-Specific USSD Codes
 
 ### 📡 Verizon (USA)
-- `*611` 📞 **Contact customer service**.
-- `#3282` 📊 **Check data usage**.
+- `*611` 📞 **Contact Verizon Customer Service**.
+- `#3282` 📊 **View data usage**.
 - `*86` 🎙️ **Access voicemail**.
 
 ### 📡 AT&T (USA)
-- `*3282#` 📊 **Check data usage**.
-- `*646#` 📞 **Check remaining talk minutes**.
-- `*225#` 💵 **Check account balance and payments**.
+- `*3282#` 📊 **Check remaining data balance**.
+- `*646#` 📞 **Check remaining minutes**.
+- `*225#` 💵 **Account balance and payment details**.
 
 ### 📡 T-Mobile (USA)
-- `#225#` 💵 **Check billing and payments**.
-- `#646#` 📞 **Check remaining talk minutes**.
-- `#932#` 📊 **Data plan usage details**.
+- `#932#` 📊 **Check mobile data usage**.
+- `#225#` 💵 **Billing and payment menu**.
+- `#646#` 📞 **View remaining minutes**.
 
 ### 🌍 Global (General)
-- `#100#` 💵 **Check balance on most pre-paid plans**.
-- `*140#` 📦 **Access bundle or package menu**.
-- `*111#` 🌐 **Operator-specific interactive menu**.
+- `*100#` 💵 **Check prepaid balance**.
+- `*111#` 🌐 **Access operator services menu**.
+- `*140#` 📦 **View active bundles or data plans**.
 
 ---
 
-## 🛠️ Advanced Developer & Debugging Codes
+## ⚙️ Advanced Developer Codes
 
-### 📲 Developer Options
-- `*#*#7594#*#*` 🛠️ **Change power button behavior (long press)**.
-- `*#*#8255#*#*` 🧩 **Google Services debugging log (GTalk Service Monitor)**.
+### 📲 Android Debugging
+- `*#*#7594#*#*` 🛠️ **Modify power button behavior**:
+  - End calls or power off with a single press.
+- `*#*#426#*#*` 🌍 **Google Play Services diagnostic tool**.
 
-### 📡 Testing Cellular & WiFi
-- `*#*#232331#*#*` 📶 **Bluetooth module diagnostic**.
-- `*#*#1575#*#*` 📡 **Detailed GPS testing mode**.
+### 📡 Advanced Testing
+- `*#*#232332#*#*` 📡 **Bluetooth test and diagnostic**.
+- `*#*#526#*#*` 📶 **WiFi signal strength testing**.
+- `*#*#1472365#*#*` 📡 **GPS diagnostics and accuracy test**.
 
 ---
 
 ## ⚠️ Important Notes:
-1. **⚠️ Caution**: Some codes can reset your device, change settings, or erase data. Use only if you fully understand their purpose.
-2. **📋 Compatibility**: Not all codes work on every device. They depend on your phone model, carrier, and software.
-3. **🛠️ Advanced Usage**: These codes are especially useful for developers, technicians, and advanced users.
+1. **Use Caution**: Some codes can erase data, reset your device, or change critical settings.
+2. **Compatibility**: Not all codes work on all devices, as they depend on model, software version, and carrier.
+3. **Responsibility**: Always ensure you understand a code's function before using it.
 
